@@ -1,0 +1,37 @@
+body {
+    background-color: #1a1c2c; /* Dark background */
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #ff2d55; /* The bright pink from the screen */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #2d3047;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-placeholder {
+    height: 150px;
+    background-color: #3d415c;
+}
+
+.info {
+    padding: 10px;
+    font-weight: bold;
+}
